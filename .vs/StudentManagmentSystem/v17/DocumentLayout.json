@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\",
+  "WorkspaceRootPath": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|d:\\dynamic-chin\\documents\\github\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|d:\\dynamic-chin\\documents\\github\\database\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|c:\\users\\dynamic-chin\\source\\repos\\studentmanagmentsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,36 +36,34 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\App.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\App.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:42:28.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T00:42:28.331Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\MainPage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\MainPage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-20T00:40:02.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T00:40:02.237Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\DatabaseHelper.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\DatabaseHelper.cs",
               "RelativeToolTip": "DatabaseHelper.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T00:36:51.889Z",
               "EditorCaption": ""
@@ -80,9 +78,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\DYNAMIC-CHIN\\source\\repos\\StudentManagmentSystem\\MainPage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AQIAADQAAABAMzMz/mIxwEUAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
