@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="SchoolManagement.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SchoolManagement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource SystemControlAcrylicWindowBrush}">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="10">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:ConnectionId='10' x:Name="FirstNameTextBox" Header="First Name" Width="300"/>
+                <TextBox x:ConnectionId='11' x:Name="LastNameTextBox" Header="Last Name" Width="300"/>
+                <DatePicker x:ConnectionId='12' x:Name="DateOfBirthPicker" Header="Date of Birth" Width="300"/>
+                <Button x:ConnectionId='13' x:Name="StudentBtn1" Content="添加学生"                                Width="300" HorizontalAlignment="Left"/>
+                <Button x:ConnectionId='14' Content="删除学生"                                   Width="300" HorizontalAlignment="Left"/>
+                <ListView x:ConnectionId='15' x:Name="StudentsListView" Width="300" Height="200" Margin="0,20,0,0"                                                     >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock Text="{Binding FirstName}"/>
+                                <TextBlock Text="{Binding LastName}"/>
+                                <TextBlock Text="{Binding BirthYear}"/>
+                                <TextBlock Text="{Binding BirthMonth}"/>
+                                <TextBlock Text="{Binding BirthDate}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:ConnectionId='2' x:Name="CourseNameTextBox" Header="课程名称" Width="300"/>
+                <TextBox x:ConnectionId='3' x:Name="TeacherNameTextBox" Header="教师姓名" Width="300"/>
+                <StackPanel>
+                    <TextBox x:ConnectionId='8' x:Name="ScheduleTimeTextBox" Header="安排时间" Width="300"/>
+                    <TextBox x:ConnectionId='9' x:Name="ScheduleClassromTextBox" Header="安排教室" Width="300"/>
+                </StackPanel>
+                <Button x:ConnectionId='4' Content="添加课程"                               Width="300" />
+                <Button x:ConnectionId='5' Content="删除课程"                                  Width="300" />
+                <ListView x:ConnectionId='6' x:Name="CourseListView" Width="300" Height="200" Margin="0,20,0,0"                                                   >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock Text="{Binding CourseID}"/>
+                                <TextBlock Text="{Binding CourseName}"/>
+                                <TextBlock Text="{Binding Schedule}"/>
+                                <TextBlock Text="{Binding TeacherName}"/>
+                                <TextBlock Text="{Binding Classroom}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
+
