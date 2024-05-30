@@ -1,0 +1,2 @@
+Microsoft.Data.Sqlite, Version=8.0.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+  Microsoft.Data.Sqlite.Properties.Resources.resources

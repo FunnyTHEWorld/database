@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="StudentManagmentSystem.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StudentManagmentSystem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="ms-appx:///Assets/r.jpg" Stretch="UniformToFill"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.RowSpan="2" Grid.ColumnSpan="2" >
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop x:ConnectionId='7' x:Name="StartGradientStop" Offset="0"/>
+                    <GradientStop x:ConnectionId='8' x:Name="StopGradientStop" Offset="0.7"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Text="欢迎使用学生管理系统" FontSize="48" FontWeight="Bold" Grid.ColumnSpan="2" VerticalAlignment="Bottom" Margin="60,0,0,0"/>
+        <Image Grid.ColumnSpan="2"  Grid.RowSpan="2" HorizontalAlignment="Right" Width="80" Height="80" VerticalAlignment="Top" Margin="0,60,60,0" Source="ms-appx:///Assets/logo1.png"/>
+        <StackPanel Orientation="Vertical" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="10">
+            <muxc:PersonPicture x:ConnectionId='5'
+            x:Name="UserAvatar"
+            Width="250"
+            Height="250"
+            Grid.Column="0"/>
+            <TextBlock x:ConnectionId='6' x:Name="UserNameBlock" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+        </StackPanel>
+        <Grid Margin="100" Grid.Column="1" Grid.Row="1">
+            <StackPanel MaxWidth="500 " VerticalAlignment="Center" Spacing="20">
+            <TextBox x:ConnectionId='2' Header="用户账号" x:Name="accountTextbox"                                         />
+            <PasswordBox x:ConnectionId='3' PlaceholderText="请输入密码" x:Name="pswdTextbox"/>
+            <Button x:ConnectionId='4' Content="登录" x:Name="Login_Btn"                          HorizontalAlignment="Center" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Grid>
+</Page>
+

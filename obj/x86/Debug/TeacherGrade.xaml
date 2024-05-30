@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="StudentManagmentSystem.TeacherGrade"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StudentManagmentSystem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource SystemControlAltHighAcrylicWindowBrush}">
+
+    <Grid Margin="60">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1">
+            <TextBlock Text="所有课程"/>
+            <ListView x:ConnectionId='8' x:Name="CourseListView" Width="300"  Margin="0,20,0,0"                                                   >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Spacing="5">
+                            <TextBlock Text="{Binding CourseID}"/>
+                            <TextBlock Text="{Binding CourseName}"/>
+                            <TextBlock Text="{Binding Schedule}"/>
+                            <TextBlock Text="{Binding Classroom}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackPanel>
+        <StackPanel Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Spacing="5">
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBox x:ConnectionId='4' x:Name="GradeTxbox" Header="录入成绩" Width="100"/>
+                <Button x:ConnectionId='5' Content="缺考" x:Name="Grade_AbsentBtn"                               IsEnabled="False"/>
+                <Button x:ConnectionId='6' Content="录入成绩" x:Name="GradeBtn"                        IsEnabled="False" MinWidth="240"/>
+                <Button x:ConnectionId='7' Content="作弊" x:Name="Grade_CheatBtn"                              IsEnabled="False"/>
+            </StackPanel>
+            <ListView x:ConnectionId='2' x:Name="SCListView" MinWidth="300" Height="600" Margin="0,20,0,0"                                               >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Spacing="5">
+                            <TextBlock Text="{Binding ID}"/>
+                            <TextBlock Text="{Binding StudentID}"/>
+                            <TextBlock Text="{Binding StudentName}"/>
+                            <TextBlock Text="{Binding CourseID}"/>
+                            <TextBlock Text="{Binding CourseName}"/>
+                            <TextBlock Text="{Binding Schedule}"/>
+                            <TextBlock Text="{Binding Classroom}"/>
+                            <TextBlock Text="{Binding Grade}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+
+    </Grid>
+</Page>
+

@@ -5,22 +5,41 @@
     xmlns:local="using:SchoolManagement"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
-
+    mc:Ignorable="d"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls">
     <Grid Background="{ThemeResource SystemControlAcrylicWindowBrush}">
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="10">
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBox x:Name="FirstNameTextBox" Header="First Name" Width="300"/>
-                <TextBox x:Name="LastNameTextBox" Header="Last Name" Width="300"/>
-                <DatePicker x:Name="DateOfBirthPicker" Header="Date of Birth" Width="300"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="学生数据管理系统" FontWeight="Bold" FontSize="32" Margin="16,16,0,0"/>
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal" Spacing="10" Margin="0,0,16,0">
+            <muxc:PersonPicture
+            x:Name="UserAvatar"
+            Width="48"
+            Height="48"
+            Initials="AD"
+            ProfilePicture="ms-appx:///Assets/default_avatar.png"
+            DisplayName="Alice Brown"/>
+            <StackPanel>
+                <TextBlock Text="用户名" x:Name="Usr_textblock" FontSize="16" FontWeight="Bold"/>
+                <TextBlock Text="管理员" FontSize="10"/>
+            </StackPanel>
+            <Button x:Name="Logout_Btn" Content="登出" Click="Logout_Btn_Click"/>
+        </StackPanel>
+        <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,16,0,0" Width="1100">
+            <StackPanel VerticalAlignment="Top" Spacing="5" HorizontalAlignment="Left">
+                <TextBlock Text="学生数据" FontWeight="Bold" FontSize="24"/>
+                <TextBox x:Name="NameTextBox" Header="学生姓名" Width="300"/>
+                <DatePicker x:Name="DateOfBirthPicker" Header="出生日期" Width="300"/>
                 <Button x:Name="StudentBtn1" Content="添加学生" Click="AddStudentButton_Click" Width="300" HorizontalAlignment="Left"/>
                 <Button Content="删除学生" Click="DeleteStudentButton_Click" Width="300" HorizontalAlignment="Left"/>
-                <ListView x:Name="StudentsListView" Width="300" Height="200" Margin="0,20,0,0" SelectionChanged="StudentsListView_SelectionChanged">
+                <ListView x:Name="StudentsListView" Width="300" Height="600" Margin="0,20,0,0" SelectionChanged="StudentsListView_SelectionChanged">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" Spacing="5">
-                                <TextBlock Text="{Binding FirstName}"/>
-                                <TextBlock Text="{Binding LastName}"/>
+                                <TextBlock Text="{Binding StudentID}"/>
+                                <TextBlock Text="{Binding Name}"/>
                                 <TextBlock Text="{Binding BirthYear}"/>
                                 <TextBlock Text="{Binding BirthMonth}"/>
                                 <TextBlock Text="{Binding BirthDate}"/>
@@ -29,16 +48,45 @@
                     </ListView.ItemTemplate>
                 </ListView>
             </StackPanel>
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Spacing="5">
+                <TextBlock Text="选课数据" FontWeight="Bold" FontSize="24"/>
+                <Button x:Name="AddSCBtn" Content="添加选课" Click="AddSCBtn_Click" Width="400" HorizontalAlignment="Left" IsEnabled="False"/>
+                <Button x:Name="DeleteSCBtn" Content="删除选课" Click="DeleteSCBtn_Click" Width="400" HorizontalAlignment="Left" IsEnabled="False"/>
+                <TextBox x:Name="GradeTxbox" Header="录入成绩" Width="400"/>
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <Button Content="缺考" x:Name="Grade_AbsentBtn" Click="Grade_AbsentBtn_Click" IsEnabled="False"/>
+                    <Button Content="录入成绩" x:Name="GradeBtn" Click="GradeBtn_Click" IsEnabled="False" Width="240"/>
+                    <Button Content="作弊" x:Name="Grade_CheatBtn" Click="Grade_CheatBtn_Click" IsEnabled="False"/>
+                </StackPanel>
+                <ListView x:Name="SCListView" Width="400" Height="600" Margin="0,20,0,0" SelectionChanged="SCListView_SelectionChanged">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Spacing="5">
+                                <TextBlock Text="{Binding ID}"/>
+                                <TextBlock Text="{Binding StudentID}"/>
+                                <TextBlock Text="{Binding StudentName}"/>
+                                <TextBlock Text="{Binding CourseID}"/>
+                                <TextBlock Text="{Binding CourseName}"/>
+                                <TextBlock Text="{Binding TeacherName}"/>
+                                <TextBlock Text="{Binding Schedule}"/>
+                                <TextBlock Text="{Binding Classroom}"/>
+                                <TextBlock Text="{Binding Grade}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top" Spacing="5">
+                <TextBlock Text="课程数据" FontWeight="Bold" FontSize="24"/>
                 <TextBox x:Name="CourseNameTextBox" Header="课程名称" Width="300"/>
                 <TextBox x:Name="TeacherNameTextBox" Header="教师姓名" Width="300"/>
                 <StackPanel>
                     <TextBox x:Name="ScheduleTimeTextBox" Header="安排时间" Width="300"/>
                     <TextBox x:Name="ScheduleClassromTextBox" Header="安排教室" Width="300"/>
                 </StackPanel>
-                <Button Content="添加课程" Click="AddCourseButton_Click" Width="300" />
+                <Button x:Name="CourseBtn_1" Content="添加课程" Click="AddCourseButton_Click" Width="300" />
                 <Button Content="删除课程" Click="DeleteCourseButton_Click" Width="300" />
-                <ListView x:Name="CourseListView" Width="300" Height="200" Margin="0,20,0,0" SelectionChanged="CourseListView_SelectionChanged">
+                <ListView x:Name="CourseListView" Width="300" Height="600" Margin="0,20,0,0" SelectionChanged="CourseListView_SelectionChanged">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" Spacing="5">
@@ -52,6 +100,6 @@
                     </ListView.ItemTemplate>
                 </ListView>
             </StackPanel>
-        </StackPanel>
+        </Grid>
     </Grid>
 </Page>

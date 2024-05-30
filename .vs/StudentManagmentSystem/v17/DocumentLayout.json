@@ -3,20 +3,111 @@
   "WorkspaceRootPath": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|d:\\dynamic-chin\\documents\\github\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentSelectPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:StudentSelectPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|d:\\dynamic-chin\\documents\\github\\database\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\LoginPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:LoginPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|d:\\dynamic-chin\\documents\\github\\database\\teacherpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:teacherpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|d:\\dynamic-chin\\documents\\github\\database\\studentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:studentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\teacherhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:teacherhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\teachergrade.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:teachergrade.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\teacheradd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:teacheradd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentHomePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentHomePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\studentselectpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:studentselectpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\settingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:settingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentGradePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:StudentGradePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\loginpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:loginpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\studentgradepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:studentgradepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\settingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:settingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DYNAMIC-CHIN\\.nuget\\packages\\microsoft.toolkit.uwp.ui.controls\\7.1.3\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\studentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:studentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\teacherpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:teacherpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\teacheradd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:teacheradd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\teacherhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:teacherhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\studentpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:studentpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherGrade.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:TeacherGrade.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentHomePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5BA7D9-D970-4E8C-BA63-9E9B89DB3422}|StudentManagmentSystem.csproj|solutionrelative:StudentHomePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +116,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 214,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,19 +125,259 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentSelectPage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentSelectPage.xaml",
+              "RelativeDocumentMoniker": "StudentSelectPage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentSelectPage.xaml",
+              "RelativeToolTip": "StudentSelectPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T09:12:24.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "StudentPage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentPage.xaml",
+              "RelativeDocumentMoniker": "StudentPage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentPage.xaml",
+              "RelativeToolTip": "StudentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T06:28:04.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeacherHome.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherHome.xaml",
+              "RelativeDocumentMoniker": "TeacherHome.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherHome.xaml",
+              "RelativeToolTip": "TeacherHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T00:05:45.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T00:37:49.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherGrade.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherGrade.xaml",
+              "RelativeDocumentMoniker": "TeacherGrade.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherGrade.xaml",
+              "RelativeToolTip": "TeacherGrade.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T00:05:33.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAF0AAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:00:49.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\DYNAMIC-CHIN\\.nuget\\packages\\microsoft.toolkit.uwp.ui.controls\\7.1.3\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\DYNAMIC-CHIN\\.nuget\\packages\\microsoft.toolkit.uwp.ui.controls\\7.1.3\\ReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-21T00:20:43.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentGradePage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentGradePage.xaml.cs",
+              "RelativeDocumentMoniker": "StudentGradePage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentGradePage.xaml.cs",
+              "RelativeToolTip": "StudentGradePage.xaml.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAALQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:03:12.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TeacherGrade.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherGrade.xaml.cs",
+              "RelativeDocumentMoniker": "TeacherGrade.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherGrade.xaml.cs",
+              "RelativeToolTip": "TeacherGrade.xaml.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T01:01:46.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TeacherPage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherPage.xaml.cs",
+              "RelativeDocumentMoniker": "TeacherPage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherPage.xaml.cs",
+              "RelativeToolTip": "TeacherPage.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAuwEYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:59:27.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TeacherHome.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherHome.xaml.cs",
+              "RelativeDocumentMoniker": "TeacherHome.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherHome.xaml.cs",
+              "RelativeToolTip": "TeacherHome.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T00:07:15.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
               "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAA2AAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwE8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T00:42:28.331Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-20T06:14:03.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 223,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentHomePage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentHomePage.xaml",
+              "RelativeDocumentMoniker": "StudentHomePage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentHomePage.xaml",
+              "RelativeToolTip": "StudentHomePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T07:30:54.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeacherAdd.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherAdd.xaml",
+              "RelativeDocumentMoniker": "TeacherAdd.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherAdd.xaml",
+              "RelativeToolTip": "TeacherAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T10:05:06.079Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TeacherPage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherPage.xaml",
+              "RelativeDocumentMoniker": "TeacherPage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherPage.xaml",
+              "RelativeToolTip": "TeacherPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T09:57:41.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentGradePage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentGradePage.xaml",
+              "RelativeDocumentMoniker": "StudentGradePage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentGradePage.xaml",
+              "RelativeToolTip": "StudentGradePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T09:00:51.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SettingPage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\SettingPage.xaml",
+              "RelativeDocumentMoniker": "SettingPage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\SettingPage.xaml",
+              "RelativeToolTip": "SettingPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T01:20:16.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentSelectPage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentSelectPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudentSelectPage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentSelectPage.xaml.cs",
+              "RelativeToolTip": "StudentSelectPage.xaml.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAQwHsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:20:50.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T00:39:34.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAAAuwKkBAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T00:31:34.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
@@ -57,35 +388,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\DatabaseHelper.cs",
-              "RelativeToolTip": "DatabaseHelper.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCEAAAAAAAAA",
+              "DocumentIndex": 15,
+              "Title": "SettingPage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\SettingPage.xaml.cs",
+              "RelativeDocumentMoniker": "SettingPage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\SettingPage.xaml.cs",
+              "RelativeToolTip": "SettingPage.xaml.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAQwGwAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:36:51.889Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2024-05-23T01:28:33.622Z"
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAADQAAABAMzMz/mIxwEUAAABYAAAA",
+              "DocumentIndex": 26,
+              "Title": "StudentHomePage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentHomePage.xaml.cs",
+              "RelativeDocumentMoniker": "StudentHomePage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentHomePage.xaml.cs",
+              "RelativeToolTip": "StudentHomePage.xaml.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAHIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:31:34.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T07:39:50.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentPage.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudentPage.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentPage.xaml.cs",
+              "RelativeToolTip": "StudentPage.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwB0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:57:08.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TeacherAdd.xaml.cs",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherAdd.xaml.cs",
+              "RelativeDocumentMoniker": "TeacherAdd.xaml.cs",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\TeacherAdd.xaml.cs",
+              "RelativeToolTip": "TeacherAdd.xaml.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAuwEMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T00:41:00.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentPage.xaml",
+              "DocumentMoniker": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentPage.xaml",
+              "RelativeDocumentMoniker": "StudentPage.xaml",
+              "ToolTip": "D:\\DYNAMIC-CHIN\\Documents\\GitHub\\database\\StudentPage.xaml",
+              "RelativeToolTip": "StudentPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-22T06:28:17.214Z"
             }
           ]
         }
